@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "chrome",
+            "name": "https://github.com/uibrain8/HTML-CSS-Login-Screen-Template-TikTok.git",
+            "request": "launch",
+            "url": "https://github.com/uibrain8/HTML-CSS-Login-Screen-Template-TikTok.git"
+        }
+    ]
+}
